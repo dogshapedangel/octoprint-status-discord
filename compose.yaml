@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  octoprint-bot:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: octoprint-discord-bot
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/app/config.json:ro
+    networks:
+      - bot-network
+
+networks:
+  bot-network:
+    driver: bridge

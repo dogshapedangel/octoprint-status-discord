@@ -1,0 +1,26 @@
+{
+    "content": "",
+    "tts": false,
+    "embeds": [
+      {
+        "id": 652627557,
+        "title": "[Printer name]",
+        "color": 2326507,
+        "footer": {
+          "text": "Last Updated - [Last Updated]"
+        },
+        "fields": [
+          {
+            "id": 71812574,
+            "name": "Status",
+            "value": "[Status]",
+            "inline": true
+          }
+        ]
+      }
+    ],
+    "components": [],
+    "actions": {},
+    "username": "Octoprint Status",
+    "avatar_url": "https://cdn.discordapp.com/avatars/1275997745999773747/f819bc605ae6cbfdb41cb35b085873df.png"
+  }

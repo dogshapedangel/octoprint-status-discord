@@ -1,0 +1,43 @@
+{
+    "content": "",
+    "tts": false,
+    "embeds": [
+      {
+        "id": 652627557,
+        "title": "[Printer name]",
+        "color": "[Hex color value]",
+        "fields": [
+          {
+            "id": 71812574,
+            "name": "Status",
+            "value": "[Status]",
+            "inline": true
+          },
+          {
+            "id": 749771378,
+            "name": "Progress",
+            "value": "[Percentage]",
+            "inline": true
+          },
+          {
+            "id": 739449387,
+            "name": "Time Remaining",
+            "value": "[Time Remaining]",
+            "inline": true
+          },
+          {
+            "id": 50648787,
+            "name": "File",
+            "value": "[File name]"
+          }
+        ],
+        "footer": {
+          "text": "Last Updated - [Last Updated]"
+        }
+      }
+    ],
+    "components": [],
+    "actions": {},
+    "username": "Octoprint Status",
+    "avatar_url": "https://cdn.discordapp.com/avatars/1275997745999773747/f819bc605ae6cbfdb41cb35b085873df.png"
+  }

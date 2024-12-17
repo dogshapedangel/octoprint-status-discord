@@ -1,0 +1,22 @@
+{
+    "discord_token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+    "channel_id": "YOUR_DISCORD_CHANNEL_ID_HERE",
+    "update_interval": 60,
+    "printers": [
+        {
+            "name": " :red_circle: [PRINTER_NAME]",
+            "url": "http://[OCTOPRINT_IP]",
+            "api_key": "[OCTOPRINT_API_KEY]"
+        },
+        {
+            "name": " :blue_circle: [PRINTER_NAME]",
+            "url": "http://[OCTOPRINT_IP]",
+            "api_key": "[OCTOPRINT_API_KEY]"
+        },
+        {
+            "name": " :purple_circle: [PRINTER_NAME]",
+            "url": "http://[OCTOPRINT_IP]",
+            "api_key": "[OCTOPRINT_API_KEY]"
+        }
+    ]
+}
