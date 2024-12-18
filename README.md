@@ -13,3 +13,20 @@ Configure the following variables
   - Not recommend to set less than 120 seconds, Discord rate limiting will hit you
 - `printers` - JSON array containing all of the printers you want to track
   - You can have more than three, have not tested with more than five printers
+
+## How do I run it?
+
+I recommend running it via Docker Compose using the provided compose file. 
+
+## How does it work?
+
+Every X minutes it will call the Octoprint API and update a message that it creates in a Discord channel. 
+
+It can report:
+- Printer status
+- Print progress as a percentage
+- Time remaining
+- File name being printed
+- How long ago the last update was provided
+
+<img width="475" alt="Screenshot 2024-12-18 at 12 03 39 PM" src="https://github.com/user-attachments/assets/35dbb5e2-ba15-41ff-879c-73893cf4e376" />
