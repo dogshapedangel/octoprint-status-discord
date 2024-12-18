@@ -1,7 +1,7 @@
 {
     "discord_token": "YOUR_DISCORD_BOT_TOKEN_HERE",
     "channel_id": "YOUR_DISCORD_CHANNEL_ID_HERE",
-    "update_interval": 60,
+    "update_interval": 120,
     "printers": [
         {
             "name": " :red_circle: [PRINTER_NAME]",
